@@ -55,7 +55,7 @@ function EventDetails() {
   const $party = document.createElement("ssection");
   $party.classList.add("event");
   $party.innerHTML = `
-    <h3>${selectedEvent.name} ${selectedEvent.id}</h3>
+    <h3>${selectedEvent.name} #${selectedEvent.id}</h3>
     <figure>
     </figure>
     <p><b>Date:</b> ${selectedEvent.date}</p>
